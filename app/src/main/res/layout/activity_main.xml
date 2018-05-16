@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jorgeazzufranco.labosqlite.MainActivity"
+    android:gravity="center"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:layout_margin="8dp">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrar usuario"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="56dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Modificar usuario"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="104dp"
+        android:layout_below="@+id/button1"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Consultar registro de usuarios"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="152dp"
+        android:layout_below="@+id/button2"/>
+</RelativeLayout>
